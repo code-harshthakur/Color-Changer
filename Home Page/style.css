@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    transition: background-color 0.5s ease-in-out;
+}
+
+header {
+    background-color: #f0f0f0f0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header b {
+    margin-bottom: 10px;
+    color: white;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #005f5f;
+    color: white;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-contaner {
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 50vh;
+    right: 25vh;
+    left: 25vh;
+    bottom: 50vh;
+}
+
+.boxes {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.color-box:hover {
+    transform: scale(1.05);
+}
+
+#Red-box {
+    background-color: red;
+}
+#Blue-box {
+    background-color: blue;
+}
+#Green-box {
+    background-color: greenyellow;
+}
+#Yellow-box {
+    background-color: yellow;
+}
+
+footer {
+    background-color: #f0f0f0f0;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer div {
+    color: #333;
+}

@@ -12,3 +12,13 @@ function colorChage() {
       });
 }
 window.addEventListener("DOMContentLoaded",colorChage);
+
+// Home-Button Feature
+     // Adding an Event Listner to the Home-Button
+
+const homeButton = document.getElementById("home-button");
+
+function getToDefault() {
+      document.body.style.backgroundColor = "white";
+}
+homeButton.addEventListener("click",getToDefault);

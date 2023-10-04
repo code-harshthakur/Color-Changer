@@ -22,3 +22,12 @@ function getToDefault() {
       document.body.style.backgroundColor = "white";
 }
 homeButton.addEventListener("click",getToDefault);
+
+// About Button Functionality
+const aboutButton = document.getElementById("about-button");
+
+window.addEventListener("DOMContentLoaded",function() {
+        aboutButton.addEventListener("click",function() {
+              window.location.href = "../About Page/about.html" ;
+        });
+});

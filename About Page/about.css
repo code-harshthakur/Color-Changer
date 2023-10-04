@@ -9,7 +9,6 @@
 
 body {
     background-color: white;
-    transition: background-color 0.5s ease-in-out;
 }
 
 header {
@@ -17,17 +16,12 @@ header {
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 10px;
     display: flex;
-    justify-content: space-between;
+    padding: 10px;
+    justify-content: center;
 }
 
-header b {
-    margin-bottom: 10px;
-    color: white;
-}
-
-button {
+#previous-button {
     margin: 5px;
     padding: 10px 20px;
     font-size: 1rem;
@@ -35,61 +29,32 @@ button {
     border-radius: 5px;
     background-color: #005f5f;
     color: white;
-
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content-container {
+    
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-    width: 100vw;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    justify-content: space-around;
 }
+ /* Styling each section */
 
-.boxes {
-    display: flex;
-    gap: 25px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.color-box {
-    width: 200px;
-    height: 200px;
-    cursor: pointer;
+ #heading-section, #introduction, #working, #contact {
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+    width: 98%;  /* Adjust as needed */
+    gap: 25px;
 }
 
-.color-box:hover {
-    transform: scale(1.05);
-}
-
-#Red-box {
-    background-color: red;
-}
-#Blue-box {
-    background-color: blue;
-}
-#Green-box {
-    background-color: greenyellow;
-}
-#Yellow-box {
-    background-color: yellow;
-}
-
+/* footer Styling */
 footer {
-    background-color: #f0f0f0f0;
+    background-color: #f0f0f0;
     text-align: center;
     padding: 15px;
     width: 100%;
@@ -98,6 +63,5 @@ footer {
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
-footer div {
-    color: #333;
-}
+
+
